@@ -1,0 +1,28 @@
+#!/bin/sh
+
+if [ ! -e /usr/script/tuneron.sh  ]; then
+  echo "#!/bin/sh" > /usr/script/tuneron.sh 
+  echo "" >> /usr/script/tuneron.sh 
+  echo "#*******************************************" >> /usr/script/tuneron.sh 
+  echo "# hier Script zum Einschalten hinterlegen" >> /usr/script/tuneron.sh 
+  echo "#*******************************************" >> /usr/script/tuneron.sh 
+  chmod +x /usr/script/tuneron.sh
+  
+fi  
+
+if [ ! -e /usr/script/tuneroff.sh  ]; then
+  echo "#!/bin/sh" > /usr/script/tuneroff.sh 
+  echo "" >> /usr/script/tuneroff.sh 
+  echo "#*******************************************" >> /usr/script/tuneroff.sh 
+  echo "# hier Script zum Ausschalten hinterlegen" >> /usr/script/tuneroff.sh 
+  echo "#*******************************************" >> /usr/script/tuneroff.sh 
+  chmod +x /usr/script/tuneroff.sh
+fi  
+
+echo
+echo "************************************"
+echo "***                              ***"
+echo "***   Bitte GUI neu starten   ***"
+echo "***                              ***"
+echo "************************************"
+echo

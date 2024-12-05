@@ -1,0 +1,10 @@
+Package: enigma2-plugin-extensions-tunerscript
+Version: 0.01
+Description: Tunerscript
+Architecture: all
+Section: extra
+Priority: optional
+Maintainer: x
+Homepage: x
+Depends: 
+Source: 
